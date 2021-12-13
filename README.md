@@ -27,34 +27,34 @@ in AndroidManifest.xml ergänzen:
 
 Private key Sender:
 ```plaintext
-38PnbIaNFoY4UKYY8x63itHY1dlz4eicARA6i42HFB8=
+x8QHckjKjnqbb7jkzbI1NaE2vMqq81KutHOokHTGuVs=
 ```
 
 PublicKey Sender:
 ```plaintext
-Oiq+GOqfT1L2PBmkOvL+h9WP1CSSUx5lbvVjOwaKIyQ=
+g7Nl5vgvsH4U9U3rTmWPWXGJTPMgaWi0++jqtailV18=
 ```
 
 Private key Empfänger:
 ```plaintext
-8hivrN+NJ5HkrHtMvhUPI76GLu/RogeChYJ6pHJXu7I=
+kLRtpfG1xhQYQ8xMnCj7mnsRstLM0fIbXVun7dXmydw=
 ```
 
 PublicKey Empfänger:
 ```plaintext
-trk08wvA81TFM67uJx6rt6UPbipv7pG8o4Lh6cWHRGQ=
+3WGo2WxG4jDZrn+/ybVEOz2fRU9Bt0ISOC4RKGbrRkU=
 ```
 
 Klartext:
 ```plaintext
-The quick brown fox jumps over the lazy dog
+Mein wichtiges Geheimnis
 ```
 
 Sample Curve25519 CryptoBox:
 ```plaintext
 {
   "algorithm": "Curve25519 CryptoBox",
-  "ciphertext": "N452eERQhxpSa20/pgwKSxODVHOq/8f0n0awKcfpzz8XUxtT5O0XApqoMcIL+DY5kiAQRNjKcg4gJop9mX56tIJaztJI7hU99yJE0ukP7x0ezRo=",
+  "ciphertext": "usK1d1Ka65jnTVGaF6gr/DJ2IZlp7HaPIHKT+b97QBvE69wCdQ9MznHag+dT6LHf7Y2xSzQU2flYWjf3ukYSZQ==",
   "public key sender": ""
 }
 ```
@@ -63,7 +63,7 @@ Sample Curve25519 SealedBox:
 ```plaintext
 {
   "algorithm": "Curve25519 SealedBox",
-  "ciphertext": "cd1CIpwCBgNUot9D25tYUgp5t9xTrBtDrCn4lMkCdQUnvNnucInSbdblf+O/zpkt8pdYjEjUffVAsSQXd0DPLi/4G52G0W4dToHzV03cDqq7bxGH32qE4tJJmQ==",
+  "ciphertext": "8YXkF6rNd+afnMFREHZ9MXbFIwXwgrAXOkLRFjtfGmkQattBP2ubAKsMg9G6Nik3tHbof60WRL1MVyqq7OVOYqXsL1Xo2jMz",
   "public key sender": ""
 }
 ```
